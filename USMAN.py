@@ -14,12 +14,12 @@ bit = platform.architecture()[0]
 
 if bit == '64bit':
 
-    from MANII import Main
+    from MAANII import Main
 
     Main()
 
 elif bit == '32bit':
 
-    from MANII32 import Main
+    from MAANII32 import Main
 
     Main()
